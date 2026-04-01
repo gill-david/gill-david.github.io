@@ -1,0 +1,432 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head>
+        <title>David Gill's Web Page</title>
+        <link rel="stylesheet" type="text/css" href="tabcss.css">
+        <script src="tabjavascript.js" type="text/javascript">
+        </script>
+        <script src="toggleA.js" type="text/javascript">
+        </script>
+    </head>
+    <body onload="init()">
+        <h1 id="header">David Gill</h1>
+        <ul id="tabs">
+            <li>
+                <a href="#about">Home</a>
+            </li>
+            <li>
+                <a href="#research">Research Papers</a>
+            </li>
+            <li>
+                <a href="#vita"><a href="Gill_CV.pdf">C.V.</a></a>
+            </li>
+            <li>
+                <a href="#contact">Contact & Office Hours</a>
+            </li>
+        </ul>
+        <div class="tabContent" id="about">
+            <h1 id="headersmall">About Me </h1>
+            <table border="0" width="100%" summary="mainpage">
+                <tr>
+                    <td width=60% margin=0%>
+                        <div>
+                            <img src="OxfordLogo.jpg" alt="photo me" width=150px>
+                            <p>
+                            </p>
+					
+                            I am a University Lecturer (= Assistant Professor) in the Department of Economics at the University of Oxford.
+
+                        </div>
+                    </td>
+                    <td>
+                        <img src="Dsc28.jpg" alt="photo me" width=300px>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="tabContent" id="vita">
+        	<a href="Gill_CV.pdf">C.V.</a>
+           </div>
+        <div class="tabContent" id="research">
+            <h1 id="headersmall">Working Papers</h1>
+			
+			
+			
+			
+        <div>
+                <h1 id="headerwhite"></h1>
+                <b>The Optimal Marketing Mix of Posted Prices, Discounts and Bargaining</b>
+                (with <a href="http://www.economics.ox.ac.uk/Members/john.thanassoulis/">J. Thanassoulis</a>)
+                <br>
+                <i>Southampton Discussion Paper in Economics and Econometrics 1108.</i>
+                <a href="GillThanassoulisMarketingMix.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('wp4');">Abstract</a>
+                <div id="wp4" style='display:none'>
+                    <p class="abstract">
+                        In many markets firms set posted prices which are potentially negotiable. We analyze the
+                        optimal marketing mix of pricing and bargaining when price takers buy at posted
+                        prices but bargainers attempt to negotiate discounts. The optimal bargaining
+                        strategy involves the firms offering bargainers randomly-sized discounts. Competing firms
+                        keep posted prices high to weaken the bargainers' outside option, thus forgoing the chance to increase profits from price takers by
+                        undercutting their rival. A range of
+                        posted price equilibria are possible, and the highest price in the range increases when
+                        the proportion of bargainers goes up or the bargainers become less skilled.  We consider
+                        how firms and competition authorities might encourage more consumers to bargain and
+                        determine the conditions under which each would choose to do so. Finally, we study the
+                        firms' strategic decision about how much bargaining discretion sales staff should be allowed. Both firms allowing full
+                        bargaining flexibility is always an equilibrium -- but not always the most profitable
+                        one. If there are enough bargainers, both firms committing to only matching the rival's
+                        posted price is also an equilibrium: price matching moderates competition, thus raising
+                        profits. <a href="#" onclick="toggle_visibility('wp4');">Hide</a>
+                    </p>
+                </div>
+                <br>
+                 Revision requested by <i><FONT COLOR="#ff0000">RAND Journal of Economics</FONT></i>
+            </div>
+					
+				
+				
+					
+					<div>
+                <h1 id="headerwhite"></h1>
+                <b>Cognitive Ability and Learning to Play Equilibrium: A Level-k Analysis</b>
+                (with <a href="http://faculty.cit.cornell.edu/vlp33/">V. Prowse</a>)
+                <br>
+                <i>Mimeo.</i>
+                <a href="GillProwse_CognitiveAbilityLearning.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('wp8');">Abstract</a>
+                <div id="wp8" style='display:none'>
+                    <p class="abstract">In this paper we investigate how cognitive ability influences behavior, success and the evolution of play towards Nash equilibrium in repeated strategic interactions. We study behavior in a p-beauty contest experiment and find striking differences according to cognitive ability: more cognitively able subjects choose numbers closer to equilibrium, converge more frequently to equilibrium play and earn more even as behavior approaches the equilibrium prediction. To understand better how subjects with different cognitive abilities learn differently, we estimate a structural model of learning based on level-k reasoning. We find a systematic positive relationship between cognitive ability and levels; furthermore, the average level of more cognitively able subjects responds positively to the cognitive ability of their opponents, while the average level of less cognitively able subjects does not respond at all. Our results suggest that, in strategic environments, higher cognitive ability translates into better analytic reasoning and a better 'theory of mind'.
+                        				<a href="#" onclick="toggle_visibility('wp8');">Hide</a>
+                    </p>
+                </div>
+            </div>
+		
+			
+			
+			
+			<div>
+                <h1 id="headerwhite"></h1>
+                <b>Desert and Inequity Aversion in Teams</b>
+                (with <a href="http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=821028">R. Stone</a>)
+                <br>
+                <i>Oxford Department of Economics Discussion Paper 563.</i>
+                <a href="GillStoneTeams.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('wp7');">Abstract</a>
+                <div id="wp7" style='display:none'>
+                    <p class="abstract">
+                        Teams are becoming increasingly important in work settings. We develop a
+framework to study the strategic implications of a meritocratic notion of
+desert under which team members care about receiving what they feel they
+deserve. Team members find it painful to receive less than their perceived
+entitlement, while receiving more may induce pleasure or pain depending on
+whether preferences exhibit desert elation or desert guilt. Our notion of
+desert generalizes distributional concern models to situations in which
+effort choices affect the distribution perceived to be fair; in particular,
+desert nests inequity aversion over money net of effort costs as a special
+case. When identical teammates share team output equally, desert guilt
+generates a continuum of symmetric equilibria. Equilibrium effort can lie
+above or below the level in the absence of desert, so desert guilt generates
+behavior consistent with both positive and negative reciprocity and may
+underpin social norms of cooperation.
+				<a href="#" onclick="toggle_visibility('wp7');">Hide</a>
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div>
+                <h1 id="headerwhite"></h1>
+                <b>Cheating in the Workplace: An Experimental Study of the Impact of Bonuses and Productivity</b>
+                (with <a href="http://faculty.cit.cornell.edu/vlp33/">V. Prowse</a> and <a href="http://www.personal.soton.ac.uk/mv1u06/">M. Vlassopoulos</a>)
+                <br>
+                <i>Mimeo.</i>
+                <a href="GillProwseVlassopoulos_Cheating.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('wp9');">Abstract</a>
+                <div id="wp9" style='display:none'>
+                    <p class="abstract">We use an online real-effort experiment to investigate how bonus-based pay
+and worker productivity interact with workplace cheating. Firms often use
+bonus-based compensation plans, such as group bonuses and firm-wide profit
+sharing, that induce considerable uncertainty in how much workers are paid.
+Exposing workers to a compensation scheme based on random bonuses makes them
+cheat more but has no effect on their productivity. We also find that more
+productive workers behave more dishonestly. We explain how these results
+suggest that workers' cheating behavior responds to the perceived fairness of
+their employer's compensation scheme.
+                        				<a href="#" onclick="toggle_visibility('wp9');">Hide</a>
+                    </p>
+                </div>
+            </div>
+			
+			
+			
+			<div>
+                <h1 id="headerwhite"></h1>
+                <b>Gender Differences and Dynamics in Competition: The Role of Luck</b>
+                (with <a href="http://faculty.cit.cornell.edu/vlp33/">V. Prowse</a>)
+                <br>
+                <i>Oxford Department of Economics Discussion Paper 564.</i>
+                <a href="GillProwseGenderLuck.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('wp6');">Abstract</a>
+                <div id="wp6" style='display:none'>
+                    <p class="abstract">
+                        In a real effort experiment with repeated competition we find striking differences in how the work effort of men and women responds to previous wins and losses. For women losing per se is detrimental to productivity, but for men a loss impacts negatively on productivity only when the prize at stake is big enough. Responses to luck are more persistent and explain more of the variation in behavior for women, and account for about half of the gender performance gap in our experiment. Our findings shed new light on why women may be less inclined to pursue competition-intensive careers.
+				<a href="#" onclick="toggle_visibility('wp6');">Hide</a>
+                    </p>
+                </div>
+            </div>
+
+
+            <div>
+                <h1 id="headerwhite"></h1>
+                <b>A Novel Computerized Real Effort Task Based on Sliders</b>
+                (with <a href="http://faculty.cit.cornell.edu/vlp33/">V. Prowse</a>)
+                <br>
+                <i>IZA Discussion Paper 5801.</i>
+                <a href="GillProwseSliders.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('wp3');">Abstract</a>
+                <div id="wp3" style='display:none'>
+                    <p class="abstract">
+                        In this note, we present a novel computerized real effort task based on moving sliders
+                        across a screen which overcomes many of the drawbacks of existing real effort tasks. The
+                        task was first developed and used by us in Gill and Prowse (AER, forthcoming). We outline the design of
+                        our "slider task", describe its advantages compared to existing real effort tasks and provide
+                        a statistical analysis of the behavior of subjects undertaking the task. We believe that the
+                        task will prove valuable to researchers in designing future real effort experiments, and to
+                        this end we provide z-Tree code and guidance to assist researchers wishing to implement the
+                        slider task. <a href="#" onclick="toggle_visibility('wp3');">Hide</a>
+                    </p>
+                </div>
+            </div>
+			<h1 id="headersmall">Papers in Refereed Journals</h1>
+			
+			<div>
+                <h1 id="headerwhite"></h1>
+                <b>The Optimal Choice of Pre-Launch Reviewer</b>
+                (with <a href="http://www2.warwick.ac.uk/fac/soc/economics/staff/academic/sgroi/">D. Sgroi</a>)
+                <br>
+				<i><FONT COLOR="#ff0000">Journal of Economic Theory</FONT></i>, 147(3), 1247-1260, 2012.
+                <a href="GillSgroiTests.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('wp2');">Abstract</a>
+                <div id="wp2" style='display:none'>
+                    <p class="abstract">
+                        We develop a framework in which: (i) a firm can have a new product tested publicly before launch; and (ii) tests vary in <i>toughness</i>, holding <i>expertise</i> fixed. Price flexibility boosts the strong positive impact on consumer beliefs of passing a tough test and mitigates the strong negative impact of failing a soft test. As a result, profits are convex in toughness: the firm selects either the toughest or softest test available. The toughest test is optimal when  consumers start with an unfavorable prior and receive sufficiently uninformative private signals (an ``innovative" product); the softest test is optimal when signals are sufficiently informative. <a href="#" onclick="toggle_visibility('wp2')">Hide</a>
+                    </p>
+				</div>
+
+			</div>
+			
+			<div>
+			    <h1 id="headerwhite"></h1>
+                <b>A Structural Analysis of Disappointment Aversion in a Real Effort Competition</b>
+                (with <a href="http://faculty.cit.cornell.edu/vlp33/">V. Prowse</a>)
+                <br>
+                <i><FONT COLOR="#ff0000">American Economic Review</FONT></i>, 102(1), 469-503, 2012.
+                <a href="AER12.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('wp1');">Abstract</a>
+                <div id="wp1" style='display:none'>
+                    <p class="abstract">
+                        We develop a novel computerized real effort task, based on moving sliders across a screen, to test experimentally whether agents are disappointment averse when they compete in a real effort sequential-move tournament. Our theory predicts that a disappointment averse agent, who is loss averse around her endogenous expectations-based reference point, responds negatively to her rival's effort. We find significant evidence for this discouragement effect, and use the Method of Simulated Moments to estimate the strength of disappointment aversion on average and the heterogeneity in disappointment aversion across the population.
+						<a href="#" onclick="toggle_visibility('wp1');">Hide</a>
+                    </p>
+                </div>
+            </div>
+			
+            <div>
+            	<h1 id="headerwhite"></h1>
+                <b>Fairness and Desert in Tournaments</b>
+                (with <a href="http://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=821028">R. Stone</a>)
+                <br>
+                <i><FONT COLOR="#ff0000">Games and Economic Behavior</FONT></i>, 69(2), 346-364, 2010. <a href="GEB10.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('pp2');">Abstract</a>
+                <div id="pp2" style='display:none'>
+                    <p class="abstract">
+                        We model the behavior of agents who care about receiving what they feel they deserve in a two-player rank-order tournament. Perceived entitlements are sensitive to how hard an agent has worked relative to her rival, and agents are loss averse around their meritocratically determined endogenous reference points. In a fair tournament sufficiently large desert concerns drive identical agents to push their effort levels apart in order to end up closer to their reference points on average. In an unfair tournament, where one agent is advantaged, the equilibrium is symmetric in the absence of desert, but asymmetric in the presence of desert. We find that desert concerns can undermine the standard conclusion that competition for a fixed supply of status is socially wasteful and explain why, when the distribution of output noise is fat-tailed, an employer might use a rank-order incentive scheme. <a href="#" onclick="toggle_visibility('pp2');">Hide</a>
+                    </p>
+                </div>
+                <a href="#" onclick="toggle_visibility('pp22');">Earlier Version</a>
+                <div id="pp22" style='display:none'>
+                    <p class="abstract">
+                        Fairness and Desert in Tournaments
+                        <br>
+                        <i>Department of Economics Working Paper 279, University of Oxford</i>
+                        <a href="http://www.economics.ox.ac.uk/Research/wp/pdf/paper279.pdf">PDF</a>
+                        <br>
+                        <a href="#" onclick="toggle_visibility('pp22')">Hide</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h1 id="headerwhite"></h1>
+                <b>The Impact of Bargaining on Markets with Price Takers: Too Many Bargainers Spoil the Broth</b>
+                (with <a href="http://www.economics.ox.ac.uk/Members/john.thanassoulis/">J. Thanassoulis</a>)
+                <br>
+                <i><FONT COLOR="#ff0000">European Economic Review</FONT></i>, 53(6), 658-674, 2009. <a href="EER09.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('pp1');">Abstract</a>
+                <div id="pp1" style='display:none'>
+                    <p class="abstract">
+                        In this paper we study how bargainers impact on markets in which firms set a list price
+                        to sell to those consumers who take prices as given. The list price acts as an outside
+                        option for the bargainers, so the higher the list price, the more the firms can extract
+                        from bargainers. We find that an increase in the proportion of consumers seeking to
+                        bargain can lower consumer surplus overall, even though new bargainers receive a
+                        lower price. The reason is that the list price for those who do not bargain and the
+                        bargained prices for those who were already bargaining rise: sellers have a greater
+                        incentive to make the bargainers� outside option less attractive, reducing the incentive
+                        to compete for price takers. Competition Authority exhortations to bargain can therefore
+                        be misplaced. We also consider the implications for optimal seller bargaining. <a href="#" onclick="toggle_visibility('pp1');">Hide</a>
+                    </p>
+                </div>
+            </div>
+
+            <div>
+                <h1 id="headerwhite"></h1>
+                <b>Sequential Decisions with Tests</b>
+                (with <a href="http://www2.warwick.ac.uk/fac/soc/economics/staff/academic/sgroi/">D. Sgroi</a>)
+                <br>
+                <i><FONT COLOR="#ff0000">Games and Economic Behavior</FONT></i>, 63(2), 663-678, 2008. <a href="GEB08.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('pp4');">Abstract</a>
+                <div id="pp4" style='display:none'>
+                    <p class="abstract">
+                        We consider a principal-agent problem where the principal wishes to be endorsed by
+                        a sequence of agents, but cannot truthfully reveal type. In the standard "herding"
+                        model, the agents learn from each other�s decisions, which can lead to cascades on a
+                        given decision when later agents� private information is swamped. We augment the
+                        standard model to allow the principal to subject herself to a test designed to provide
+                        public information about her type. She must decide how tough a test to attempt from
+                        a continuum of test types, which involves trading off the higher probability of passing
+                        an easier test against the greater impact from passing a tougher test. We find that the
+                        principal will always choose to be tested, and will prefer a tough test to a neutral or easy
+                        one. <a href="#" onclick="toggle_visibility('pp4');">Hide</a>
+                    </p>
+                </div>
+
+                <a href="#" onclick="toggle_visibility('pp42');">Earlier Version</a>
+                <div id="pp42" style='display:none'>
+                    <p class="abstract">
+                        Product Launches with Biased Reviewers: The Importance of Not Being Earnest, <i>Department of Applied Economics Working Paper 335, University of Cambridge</i>
+                        <br>
+                        <a href="#" onclick="toggle_visibility('pp42')">Hide</a>
+                    </p>
+                </div>
+            </div>
+			
+			<div>
+                <h1 id="headerwhite"></h1>
+                <b>Strategic Disclosure of Intermediate Research Results</b>
+                <br>
+                <i><FONT COLOR="#ff0000">Journal of Economics and Management Strategy</FONT></i>, 17(3), 733-758, 2008. <a href="JEMS08.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('pp3');">Abstract</a>
+                <a href="http://www.timeshighereducation.co.uk/story.asp?storyCode=198181&sectioncode=26">In the News</a>
+                <div id="pp3" style='display:none'>
+                    <p class="abstract">
+                        We analyze the incentives to disclose intermediate research results during the
+                        course of a patent contest. Despite knowledge spillovers, the leading innovator
+                        sometimes discloses to signal commitment to the project, and so potentially
+                        inducing a rival�s exit. Surprisingly, when development costs are low the
+                        leading innovator does not need to disclose to induce the same strategic
+                        deterrence effect as that which arises from disclosure. Taking into account
+                        wasteful duplication of R&D effort, a patent office can increase welfare by
+                        choosing the probability of granting a contested patent and so altering the
+                        proportion of rivals that the leading innovator deters. <a href="#" onclick="toggle_visibility('pp3');">Hide</a>
+                    </p>
+                </div>
+            </div>
+			
+            <div>
+                <h1 id="headerwhite"></h1>
+                <b>Soft Money and Hard Choices: Why Political Parties Might Legislate Against Soft Money Donations</b>
+                (with <a href="http://www-polisci.tamu.edu/faculty/lipsmeyer/">C.S. Lipsmeyer</a>)
+                <br>
+                <i><FONT COLOR="#ff0000">Public Choice</FONT></i>, 123(3-4), 411-438, 2005. <a href="PublicChoice05.pdf">PDF</a>
+                <a href="#" onclick="toggle_visibility('pp5');">Abstract</a>
+                <div id="pp5" style='display:none'>
+                    <p class="abstract">
+                        In contrast to the bulk of the campaign finance literature that highlights political action
+                        committee (PAC) contributions and single donations, this paper emphasizes soft
+                        money and the rationale for dual contributions. Employing a formal model of unregulated
+                        contributions and political access, we show that donors will rationally choose to
+                        contribute to both political parties. While the parties accept these dual contributions,
+                        they lead to an imbalance between the benefits of contributions and the costs of providing
+                        access. This race to acquire unlimited soft money leads to a situation where the
+                        parties agree to campaign finance reform legislation. <a href="#" onclick="toggle_visibility('pp5');">Hide</a>
+                    </p>
+                </div>
+            </div>
+            <div>
+                <h1 id="headerwhite"></h1>
+                <b>Sequential Decision-Making and Asymmetric Equilibria: An Application to Takeovers</b>
+                (with <a href="http://www2.warwick.ac.uk/fac/soc/economics/staff/academic/sgroi/">D. Sgroi</a>)
+                <br>
+                <i><FONT COLOR="#ff0000">B.E. Journal of Theoretical Economics</FONT></i>, 4(1) Topics, Art. 11, 2004. <a href="http://www.bepress.com/bejte/topics/vol4/iss1/art11">PDF</a>
+                <a href="#" onclick="toggle_visibility('pp6');">Abstract</a>
+                <div id="pp6" style='display:none'>
+                    <p class="abstract">
+                        With indivisible shareholdings and simultaneous shareholder decision-making, the existing takeover literature provides a reasonable profit only in asymmetric equilibria. We allow the raider to approach shareholders sequentially and thereby find a unique equilibrium that produces the same outcome. <a href="#" onclick="toggle_visibility('pp6');">Hide</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="tabContent" id="contact">
+            <h1 id="headersmall">Contact Information </h1>
+            <table border=0 width=100% bgcolor=#ffffff summary="border">
+                <tr>
+                    <td>
+                        Department of Economics
+                    </td>
+                    <td>
+                        Mobile: +44 (0) 77 1475 6170
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Manor Road Building
+                    </td>
+                    <td>
+                        Office: Number 241 (Phase I)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        University of Oxford
+                    </td>
+                    <td>
+                        Email:   david.gill@economics.ox.ac.uk
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Oxford OX1 3UQ, UK
+                    </td>
+                    <td>
+                    </td>
+                </tr>
+            </table>
+            <h1 id="headersmall">Office Hours </h1>
+            <p>
+                Please email to make an appointment
+            </p>
+            </ul>
+        </div>
+        <br>
+    <script type="text/javascript">
+
+   var _gaq = _gaq || [];
+   _gaq.push(['_setAccount', 'UA-2348368-3']);
+   _gaq.push(['_trackPageview']);
+
+   (function() {
+     var ga = document.createElement('script'); ga.type =
+'text/javascript'; ga.async = true;
+     ga.src = ('https:' == document.location.protocol ? 'https://ssl' :
+'http://www') + '.google-analytics.com/ga.js';
+     var s = document.getElementsByTagName('script')[0];
+s.parentNode.insertBefore(ga, s);
+   })();
+
+</script>
+
+	
+	</body>
+</html>
